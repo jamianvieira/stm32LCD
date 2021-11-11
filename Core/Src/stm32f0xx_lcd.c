@@ -105,7 +105,8 @@ void setRowOffsets(int row0, int row1, int row2, int row3){
 
 /********** high level commands, for the user! */
 
-void writeDisplay(char *str){
+
+void writeDisplay(char *str){ //use this to write strings to the display
 	int i;
 	for(i = 0; str[i] != '\0'; i++)
 		write(str[i]);
@@ -217,7 +218,7 @@ void write(uint8_t value){
 
 /************ low level data pushing commands **********/
 
-// write either command or data, with automatic 4/8-bit selection
+// write either command or data, in 4 bit mode
 void send(uint8_t value, uint8_t mode){
 
 	HAL_GPIO_WritePin(RS_GPIO_Port, RS_Pin, mode);
