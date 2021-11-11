@@ -2,7 +2,7 @@
  * stm32f0xx_lcd.h
  *
  *  Created on: Nov 10, 2021
- *      Author: jamia
+ *      Author: jamian vieira
  */
 #include <stdint.h>
 #ifndef INC_STM32F0XX_LCD_H_

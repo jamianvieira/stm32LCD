@@ -2,7 +2,7 @@
  * stm32f0xx_lcd.c
  *
  *  Created on: Nov 10, 2021
- *      Author: jamia
+ *      Author: jamian vieira
  */
 #include "stm32f0xx_lcd.h"
 #include "stm32f0xx_hal.h"
