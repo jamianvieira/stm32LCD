@@ -61,7 +61,7 @@
 #define LCD_5x10DOTS 0x04
 #define LCD_5x8DOTS 0x00
 
-void begin(uint8_t cols, uint8_t rows, uint8_t dotsize);
+void begin(uint8_t cols, uint8_t rows);
 
 void writeDisplay(char *str);
 void clear();

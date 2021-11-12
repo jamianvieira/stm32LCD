@@ -43,7 +43,7 @@ uint8_t _initialized;
 uint8_t _numlines;
 uint8_t _row_offsets[4];
 
-void begin(uint8_t cols, uint8_t lines, uint8_t dotsize){
+void begin(uint8_t cols, uint8_t lines){
 	if (lines > 1){
 		_displayfunction |= LCD_2LINE;
 	}

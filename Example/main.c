@@ -93,7 +93,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
 
-  begin(16, 2, LCD_5x8DOTS);
+  begin(16, 2);
   writeDisplay(" Jamian Vieira");
   setCursor(2,2);
   writeDisplay("Hello World!");
